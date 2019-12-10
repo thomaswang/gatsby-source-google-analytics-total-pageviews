@@ -1,9 +1,9 @@
-# Gatsby source for Google Anatytics Reporting API
+# Gatsby Source Plugin for Google Analytics Total Page Views
 
 ## Install
 
 ```
-npm i gatsby-source-google-analytics-reporting-api
+npm i gatsby-source-google-analytics-total-pageviews
 ```
 
 ## Configure
@@ -12,17 +12,17 @@ In `gatsby-config.js`:
 
 ```js
     {
-      resolve: `gatsby-source-google-analytics-reporting-api`,
+      resolve: `gatsby-source-google-analytics-total-pageviews`,
       options: {
         email: process.env.CLIENT_EMAIL,
-        key: require('fs').readFileSync('private.key'),
-        viewId: `115350264`,
-        startDate: `2009-01-01`,
+        key: [googleApiKey],
+        viewId: [googleAnalyticsViewId],
+        startDate: '30daysAgo',
       }
     },
 ```
 
-## Usage 
+## Usage
 
 ```graphql
     pageViews(path: {eq: $slug}) {

@@ -1,16 +1,17 @@
 {
-  "name": "gatsby-source-google-analytics-reporting-api",
-  "version": "1.0.2",
-  "description": "GatsbyJS Source for Google Anatytics Reporting API",
-  "repository": "antonmedv/gatsby-source-google-analytics-reporting-api",
+  "name": "gatsby-source-google-analytics-total-pageviews",
+  "version": "0.1.0",
+  "description": "Gatsby Source Plugin for Google Analytics Total Page Views",
+  "repository": "thomaswangio/gatsby-source-google-analytics-total-pageviews",
   "main": "gatsby-node.js",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "analytics",
-    "reporting"
+    "reporting",
+    "page views"
   ],
-  "author": "Anton Medvedev <anton@medv.io>",
+  "author": "Thomas Wang <thomas@wang.sh>",
   "license": "MIT",
   "dependencies": {
     "googleapis": "^33.0.0"

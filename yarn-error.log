@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/thomaswang/.nvm/versions/node/v12.12.0/bin/node /usr/local/Cellar/yarn/1.19.2/libexec/bin/yarn.js publish
+
+PATH: 
+  /Users/thomaswang/.nvm/versions/node/v12.12.0/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  12.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:136846:13)
+      at Interface.emit (events.js:210:5)
+      at Interface._ttyWrite (readline.js:887:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:210:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1153:36)
+      at ReadStream.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:308:12)
+
+npm manifest: 
+  {
+    "name": "gatsby-source-google-analytics-reporting-api",
+    "version": "0.1.0",
+    "description": "GatsbyJS Source for Google Anatytics Reporting API",
+    "repository": "antonmedv/gatsby-source-google-analytics-reporting-api",
+    "main": "gatsby-node.js",
+    "keywords": [
+      "gatsby",
+      "gatsby-plugin",
+      "analytics",
+      "reporting"
+    ],
+    "author": "Anton Medvedev <anton@medv.io>",
+    "license": "MIT",
+    "dependencies": {
+      "googleapis": "^33.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
