@@ -1,5 +1,7 @@
 # Gatsby Source Plugin for Google Analytics Total Page Views
 
+⚠️ DOES NOT WORK ⚠️
+
 ## Install
 
 ```
