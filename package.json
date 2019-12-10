@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-google-analytics-total-pageviews",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gatsby Source Plugin for Google Analytics Total Page Views",
   "repository": "thomaswangio/gatsby-source-google-analytics-total-pageviews",
   "main": "gatsby-node.js",
